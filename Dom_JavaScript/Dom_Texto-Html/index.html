@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Dom_JavaScript/Dom_Texto-Html/app.js" defer></script>
+    <title>DOM_TEXTO Y HTML </title>
+
+    <style>
+        html {
+            font-size: 18px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media(max-width:450px) {
+            body {
+                font-size: 14px;
+            }
+        }
+
+        .container {
+            margin-top: 5rem;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .card {
+            margin: 1rem;
+            width: 200px;
+            height: 100px;
+            background-color: blueviolet;
+        }
+
+        .sepia {
+            filter: sepia(45);
+        }
+
+        .rotate {
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+        <h2>HOLAA</h2>
+    </article>
+
+    <p id="que-es" style="width: 50%;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa perspiciatis pariatur nisi, consequatur atque,
+        qui porro reprehenderit aut voluptatum, delectus inventore repudiandae? Totam molestias excepturi officiis sed
+        labore atque quas.
+    </p>
+
+    <section class="container">
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+    </section>
+
+    <a href="" rel="noopener">Hola</a>
+
+</body>
+
+</html>
